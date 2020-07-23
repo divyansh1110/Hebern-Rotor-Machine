@@ -1,3 +1,5 @@
-# demo
+# hebern machine
 
-here for some fun!!!
+
+Encryption algorithm 
+author :- divyansh chawda
