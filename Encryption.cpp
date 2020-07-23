@@ -1,3 +1,6 @@
+// author Divyansh Chawda
+// Encryption algorithm 
+
 #include<bits/stdc++.h>
 using namespace std ;
 
