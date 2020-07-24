@@ -1,6 +1,6 @@
 # hebern machine
 
 
-Encryption algorithm 
-author :- divyansh chawda
-More coming soon
+Encryption algorithm in c++ for hebern machine \
+author :- divyansh chawda \
+ 
