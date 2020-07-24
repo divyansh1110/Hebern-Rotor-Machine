@@ -2,5 +2,5 @@
 
 
 Encryption algorithm in c++ for hebern machine \
-author :- divyansh chawda \
+author :- divyansh chawda 
  
