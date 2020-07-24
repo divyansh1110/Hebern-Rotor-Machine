@@ -24,14 +24,11 @@ int main()
 
 int ency()   // encryption function
 {
-    string key="abcdefghijlkmnopqrstuvwxyz";
-        // cout<<"enter the key :- ";
-         // cin>>key;
+    string key;
+         cout<<"enter the key :- ";
+          cin>>key;
          transform(key.begin(), key.end(), key.begin(), ::tolower);
-    // cout<<"check 1 "<<key<<'\n';
-    // cout<<key.length()<<'\n';
     int ans=check(key);
-   // cout<<ans<<"\n";
          if(ans==0){
           cout<<"Invalid Key!!! \n";
              return 0;
@@ -40,9 +37,9 @@ int ency()   // encryption function
        
       
 
-    string plaintext="abcdefghijklmnopqrstvuwxyz";
-       // cout<<"Enter plain text:-";
-       // cin>>plaintext;
+    string plaintext;
+        cout<<"Enter plain text:-";
+        cin>>plaintext;
         transform(plaintext.begin(), plaintext.end(), plaintext.begin(), ::tolower);
     string ciphertext;    
         int len=plaintext.length();
